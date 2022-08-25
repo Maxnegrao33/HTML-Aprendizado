@@ -1,0 +1,106 @@
+<!--Pressiona ! e "Enter"
+O Cabeçalho é criado automaticamente-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Projeto de aprendizado-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento</title>
+</head>
+<body>
+    <!-- Tags de Tamanho
+    vão de h1 até h6vde forma decrescente-->
+    <h1>O projeto</h1>
+
+    <!--Tag de Imagem, inserir imagem e caminho-->
+    <!--esta tag possui atributos, como imagem e texto-->
+    <img src="nomedaimagem.extensão" alt="">
+
+    <!--Tag de inserir texto digitado
+    Esta tag precisa ser fechada com o símbolo / em outra tag-->
+    <input type="text"> </input>
+    <!--É possível desativar o label para receber texto
+    disabled é um atributo booleano-->
+    <br><br>
+    <input type="text" disabled> </input>
+    <br><br>
+    <!--Tag de Hipertexto-->
+    <!--Para ligar em algum local na internet-->
+        <a href="google.com" target="_blank"> Logo do Google</a>
+
+    
+        <!--Atributos Globais
+    são atributos declarados para todas as tags de um tipo
+    estes atributos são bem comuns-->
+    
+    <div title="">
+        <!--elemento podem ser inseridos aqui dentro-->
+    </div>
+    
+    <div class="carrinho">
+        <!--elemento podem ser inseridos aqui dentro-->
+    </div>
+    
+    <!--Atributo data-->
+    <div class="carrinho" data-id="cart2">
+        <!--elemento podem ser inseridos aqui dentro-->
+        <!--No caso do id, não é boa prática repetir nomes
+        Isso com certeza irá gerar problemas-->
+    </div>
+    
+    <!--Posso também inserir um atributo para editar o conteúdo
+    Mas quando recarregar ou salvar a página, perde a edição-->
+    <div class="carrinho contenteditable="true">
+        carrinho
+        <!--elemento podem ser inseridos aqui dentro-->
+    </div>
+
+    <!--Atributo que esconde uma tag-->
+    <div class="carrinho" hidden>
+        <!--elemento podem ser inseridos aqui dentro-->
+    </div>
+
+    <div class="carrinho">
+        <!--elemento podem ser inseridos aqui dentro-->
+    </div>
+
+    <!--Mudando a cor do texto, via CSS modo inline-->
+    <!--Geralmente usa mais o CSS de modo externo-->
+    <div class="carrinho" style="color: red;">
+        <!--elemento podem ser inseridos aqui dentro-->
+    </div>
+
+    <!--Tab index é que define a ordem das tabs-->
+    <div tabindex="1">
+        <!--elemento podem ser inseridos aqui dentro-->
+    </div>
+
+    <div tabindex="2">
+        <!--elemento podem ser inseridos aqui dentro-->
+    </div>
+
+<!--Como inserir uma tag dentro da outra
+Isso é conhecido como "Aninhamento de Tags"-->
+
+<p>
+    <!--As tags contidas dentro da tag p, são filhas dela
+    Isso é o início de conceito de Herança-->
+    Vou <em>escrever </em> um parágrafo
+    <br>
+    Vou <b>escrever </b> um parágrafo
+    <br>
+    Vou <strong>escrever </strong> um parágrafo
+    <br>
+    Vou <sub>escrever </sub> um parágrafo
+    <br>
+    Vou <b> <em>escrever </b> </em> um parágrafo
+</p>
+
+
+</body>
+</html>
+
+
